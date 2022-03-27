@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="DungeonItemManager.ItemsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DungeonItemManager"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="340,350,0,0" TextWrapping="Wrap" Text="BP2" VerticalAlignment="Top" Height="79" Width="143" SelectionChanged="TextBlock_SelectionChanged"/>
+
+    </Grid>
+</Page>
